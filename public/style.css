@@ -850,8 +850,6 @@ nav ul li a:hover::after {
     -webkit-text-fill-color: var(--tj-white);
     color: var(--tj-white);
 }
-
-/* Responsive adjustments */
 @media (max-width: 768px) {
     .service-item {
         flex-direction: column;
@@ -871,8 +869,6 @@ nav ul li a:hover::after {
     font-family: var(--tj-ff-body);
 }
 
-
-/* Pricing Section */
 .pricing {
     padding: 80px 0;
     background: var(--tj-bg-3);
@@ -888,8 +884,6 @@ nav ul li a:hover::after {
     font-family: var(--tj-ff-russo);
     color: var(--tj-theme-primary-2);
 }
-
-/* Cards Grid - 3 per row */
 .pricing-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -900,13 +894,13 @@ nav ul li a:hover::after {
 /* Responsive adjustments */
 @media (max-width: 992px) {
     .pricing-cards {
-        grid-template-columns: repeat(2, 1fr); /* 2 cards per row for medium screens */
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 768px) {
     .pricing-cards {
-        grid-template-columns: 1fr; /* 1 card per row on mobile */
+        grid-template-columns: 1fr;
     }
 }
 
@@ -931,7 +925,6 @@ nav ul li a:hover::after {
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 15px;
-    /* color: var(--tj-theme-primary-1); */
 }
 /* Hover effects */
 .pricing-card:hover {
@@ -972,8 +965,6 @@ nav ul li a:hover::after {
         flex-direction: column;
     }
 }
-
-/* Let's Work Together */
 .lets-work {
     padding: 80px 0;
     background: var(--tj-bg-2);
@@ -1022,8 +1013,8 @@ nav ul li a:hover::after {
 .work-form input,
 .work-form textarea {
   width: 100%;
-  max-width: 100%; /* prevents them from pushing out */
-  box-sizing: border-box; /* include padding in width */
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .work-form input::placeholder,
@@ -1057,7 +1048,7 @@ nav ul li a:hover::after {
 .work-info i {
   font-size: 1.4rem;
   color: var(--tj-theme-primary-2);
-  min-width: 25px; /* keeps icons aligned */
+  min-width: 25px;
 }
 .work-info a {
   color: var(--tj-white);
@@ -1068,9 +1059,6 @@ nav ul li a:hover::after {
 .work-info a:hover {
   color: var(--tj-theme-primary-1);
 }
-
-/* Responsive */
-/* Make sure grid doesn’t overflow on small screens */
 @media (max-width: 768px) {
   .work-grid {
     grid-template-columns: 1fr;
@@ -1079,12 +1067,12 @@ nav ul li a:hover::after {
 
   .work-form,
   .work-info {
-    width: 100%;   /* force them to stay inside container */
+    width: 100%;
   }
 
   .work-info ul {
     margin-top: 1.5rem;
-    padding-left: 0; /* center properly */
+    padding-left: 0;
   }
   .work-grid {
     flex-direction: column;
