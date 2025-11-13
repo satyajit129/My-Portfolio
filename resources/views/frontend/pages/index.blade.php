@@ -8,7 +8,7 @@
    <meta name="description" content="Professional Full Stack Web Developer skilled in HTML, CSS, JavaScript, React, Next.js, PHP, and Laravel. Building responsive, user-centered web applications that are both visually appealing and highly functional.">
     <meta name="keywords" content="Full Stack Web Developer, Web Development, HTML, CSS, JavaScript, React, Next.js, PHP, Laravel, Responsive Design, Web Applications, Frontend Development, Backend Development">
     <meta name="author" content="Satyajit Roy">
-    <link rel="icon" type="image/png" href="{{ asset('images/Logo.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('images/L.png') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
 
 
@@ -26,7 +26,7 @@
         <div class="container header_section">
             <!-- Logo with image -->
             <a href="#" class="logo">
-                <img src="{{ asset('images/Logo.png') }}" alt="Satyajit Logo">
+                <img src="{{ asset('images/AI_LOGO.png') }}" alt="Satyajit Logo">
             </a>
 
             <!-- Hamburger -->
